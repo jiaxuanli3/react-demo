@@ -1,18 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Timer from "./components/Timer";
+import TopBar from "./components/TopBar";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>WOOHOO! YOU DID IT!</h2><p>Send '<b>🧸🫣🚣</b>' in Discord if you got this far! (iykyk)</p>
-        <small>
-          Edit <code>src/App.js</code> and save to reload.
-        </small>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Timer />
+			<TopBar />
+		</div>
+	);
 }
 
 export default App;

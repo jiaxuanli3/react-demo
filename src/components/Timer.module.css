@@ -1,0 +1,52 @@
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    position: fixed;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.timerButton {
+    border-radius: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 28pt;
+    width: 150pt;
+    height: 70pt;
+
+    cursor: pointer;
+}
+
+.startButton {
+    border: 5px solid #77E1A8FF;
+    background-color: #77E1A828;
+
+    margin-right: 15px;
+}
+
+.stopButton {
+    border: 5px solid #E1777DFF;
+    background-color: #E1777D28;
+
+    margin-left: 15px;
+}
+
+.timerDisplay {
+    border: 5px solid #77A8E1FF;
+    border-radius: 10px;
+    background-color: #77A8E128;
+    width: 315pt;
+    height: 148pt;
+    margin-bottom: 10px;
+    
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 60pt;
+    
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 148pt;
+}
